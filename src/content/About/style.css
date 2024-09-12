@@ -1,0 +1,67 @@
+.content-about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+}
+
+.pic-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 58px 150px 100px 280px;
+}
+
+.rounded-img {
+    border-radius: 8px;
+    width: 400px;
+    height: 400px;
+}
+
+.section-content {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding-right: 200px;
+    gap: 20px;
+}
+
+
+/************* text area **************/
+
+
+.title-about {
+    font-size: 16px;
+    color: #999999;
+}
+
+.head-title-about {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.detail-about {
+    font-size: 16px;
+    color: #999999;
+    padding-top: 10px;
+}
+
+.read-see {
+    display: flex;
+    gap: 40px;
+    padding-top: 35px;
+    align-items: center;
+}
+
+.read-more {
+    padding: 10px 20px;
+    background-color: #FF6600;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.see-more {
+    font-weight: 500;
+
+}

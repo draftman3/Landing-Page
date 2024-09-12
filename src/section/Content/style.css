@@ -1,0 +1,56 @@
+.container {
+    position: relative;
+    width: 100%;
+    height: 673px;
+    overflow: hidden; /* ป้องกันไม่ให้ bg-container เกินออกไป */
+}
+
+.bg-container {
+    position: absolute; /* ทำให้เป็นพื้นหลัง */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(82%);
+    z-index: 1; /* ให้อยู่ข้างล่าง */
+}
+
+.main-content {
+    position: relative; /*  ยืนยันว่า main-content อยู่เหนือพื้นหลัง */
+    z-index: 2; /* ให้อยู่ข้างบน bg-container */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-text {
+    position: relative;
+    padding: 168px 500px 0 0;
+    z-index: 3; /* ให้อยู่เหนือพื้นหลังและ main-content */
+}
+
+.head-text {
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+    z-index: 3; /* ข้อความอยู่บนสุด */
+}
+
+.title-text {
+    color: #fff;
+    font-size: 40px;
+    z-index: 3; /* ข้อความอยู่บนสุด */
+}
+
+.btn-home {
+    padding: 10px 20px;
+    background-color: #FF6600;
+    color: #fff;
+    border: 1px solid #FF6600;
+    border-radius: 8px;
+    font-size: 20px;
+    font-family:  "Prompt", system-ui;
+    margin-top: 60px;
+}

@@ -1,0 +1,44 @@
+.container-build {
+    background-image: url('../../assets/building/bg_building.png');
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.content-build {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 100px 50px 0 150px;
+}
+
+.title-build {
+    font-size: 16px;
+    color: #999999;
+}
+
+.head-build {
+    font-size: 35px;
+    font-weight: bold;
+    color: #222222;
+}
+
+.sub-title-build {
+    font-size: 18px;
+    color: #999999;
+}
+
+.btn-read {
+    color: #fff;
+    padding: 10px 20px;
+    background-color: #FF6600;
+    border-radius: 8px;
+    border: 1px solid #FF6600;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.picture-build {
+    margin: 100px 100px 100px 20px;
+}

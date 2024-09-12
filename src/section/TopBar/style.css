@@ -1,0 +1,28 @@
+.topbar {
+    display: flex;
+    max-width: 100%;
+    background-color: #E6E6E6;
+}
+
+.email-Tel {
+    display: flex;
+    margin: 14px 0;
+    margin-left: 322px;
+    gap: 15px;
+    align-items: center;
+}
+
+.email {
+    display: flex;
+    gap: 5px;
+}
+
+.Tel {
+    display: flex;
+    gap: 5px;
+}
+
+.text-mail, .text-tel {
+    font-size: 12px;
+    color: #16202C;
+}
